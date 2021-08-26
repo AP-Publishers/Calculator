@@ -1,0 +1,55 @@
+#introTXT {
+    color: white;
+    font-family: Monolisa;
+    font-size: 100px;
+    position: relative;
+    top: 250px;
+    opacity: 0;
+    transition: all 1.2s;
+}
+#IntroPage {
+    width:100%;
+    height: 100%;
+    background: black;
+}
+.Link {
+    width: 200px;
+    height: 70px;
+    margin: 25px;
+    border: 5px solid black;
+    border-radius: 5px;
+    background: purple;
+    color: azure;
+    cursor:pointer;
+    transition: all 0.5s;
+}
+.Link:hover {
+    width: 225px;
+    height: 95;
+    border: 10px solid black;
+    border-radius: 10px;
+}
+#mainPage {
+    width: 100%;
+    display: none;
+    height: 100%;
+    background:#ffc90e;
+}
+#attractText {
+    color: black;
+    font-family: monolisa;
+    position: relative;
+    top: 25px;
+    font-size: 45px;
+}
+#loadingImage {
+    zoom: 200%;
+    position: relative;
+    top: 5px;
+}
+#loadingPage {
+    background: #ffc90e;
+    width: 100%;
+    height: 100%;
+    display: none;
+}
